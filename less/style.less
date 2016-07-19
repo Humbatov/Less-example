@@ -1,0 +1,50 @@
+@mainMargin: 5px;
+@fixedWidth: 1200px;
+@firstColor: red;
+@secondColor: blue;
+
+.main{
+    width:@fixedWidth;
+}
+
+.row{
+    background:@firstColor;
+    
+    margin:@mainMargin*2 auto;
+    clear: both;
+}
+
+.col-4{
+    width:(@fixedWidth - ( @mainMargin * 6))/3;
+    
+}
+
+.col-6{
+    width: (@fixedWidth - ( @mainMargin * 4))/2;
+}
+
+.col-2{
+   width:(@fixedWidth/12)*4 - (@mainMargin*2); 
+}
+.col-8{
+     width:(@fixedWidth/12)*8 - (@mainMargin*2);
+}
+
+.col-4, .col-6, .col-2, .col-8{
+    background:@secondColor;
+    height: 100%;
+    float: left;
+    height:@fixedWidth/4;
+    margin:@mainMargin;
+}
+
+
+
+.clearFix{
+    clear: both;
+}
+
+        
+    
+
+

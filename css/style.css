@@ -1,0 +1,33 @@
+.main {
+  width: 1200px;
+}
+.row {
+  background: #ff0000;
+  margin: 10px auto;
+  clear: both;
+}
+.col-4 {
+  width: 390px;
+}
+.col-6 {
+  width: 590px;
+}
+.col-2 {
+  width: 390px;
+}
+.col-8 {
+  width: 790px;
+}
+.col-4,
+.col-6,
+.col-2,
+.col-8 {
+  background: #0000ff;
+  height: 100%;
+  float: left;
+  height: 300px;
+  margin: 5px;
+}
+.clearFix {
+  clear: both;
+}
