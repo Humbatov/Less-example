@@ -6,13 +6,10 @@
   margin: 10px auto;
   clear: both;
 }
-.col-4 {
-  width: 390px;
-}
 .col-6 {
   width: 590px;
 }
-.col-2 {
+.col-4 {
   width: 390px;
 }
 .col-8 {

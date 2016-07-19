@@ -13,21 +13,22 @@
     margin:@mainMargin*2 auto;
     clear: both;
 }
-
-.col-4{
-    width:(@fixedWidth - ( @mainMargin * 6))/3;
     
-}
+
 
 .col-6{
-    width: (@fixedWidth - ( @mainMargin * 4))/2;
+    .col-width(6);
 }
 
-.col-2{
-   width:(@fixedWidth/12)*4 - (@mainMargin*2); 
+.col-4{
+   .col-width(4); 
+}
+
+.col-width(@widthVary){
+    width:(@fixedWidth/12)*@widthVary - (@mainMargin*2);
 }
 .col-8{
-     width:(@fixedWidth/12)*8 - (@mainMargin*2);
+     .col-width(8);
 }
 
 .col-4, .col-6, .col-2, .col-8{
